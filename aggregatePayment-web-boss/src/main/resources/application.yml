@@ -1,0 +1,18 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+spring:
+  mvc:
+    view:
+      prefix: /jsp/
+      suffix: .jsp
+  cache:
+    type: ehcache
+    ehcache:
+      config: classpath:/ehcache.xml
+mybatis:
+  mapper-locations: classpath:mybatis/mapper/*/*.xml
+logging:
+  config: classpath:logback.xml

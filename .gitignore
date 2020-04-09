@@ -1,0 +1,4 @@
+# Project exclude paths
+/aggregatePayment-common-core/target/
+/aggregatePayment-service/target/
+/aggregatePayment-web-boss/target/
